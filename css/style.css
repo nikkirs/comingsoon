@@ -23,10 +23,10 @@ body {
 
 .landing {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1533757347678-84aeb7d9f8a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd1ba5f15066d3d8eb091ed8abd5846c&w=1000&q=80");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 160vh;
+  height: 140vh;
 }
 
 .landing h1 {
@@ -63,6 +63,20 @@ body {
   font-size: 25px;
 }
 
+.fb {
+  position: absolute;
+  top: 10px;
+  left: 1100px;
+  color: #3b5998;
+}
+
+.insta {
+  position: absolute;
+  top: 10px;
+  left: 1150px;
+  color: #fb3958;
+}
+
 @media (max-width: 650px) {
   .landing img {
     width: 70%;
@@ -89,6 +103,39 @@ body {
 
   img.abcd {
     width: 60px;
+  }
+  .fb {
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+    color: #3b5998;
+  }
+
+  .insta {
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    color: #fb3958;
+  }
+}
+
+@media (max-width: 380px) {
+  .fb {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    color: #3b5998;
+  }
+
+  .insta {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    color: #fb3958;
+  }
+  .logo {
+    width: 200px;
+    height: 130px;
   }
 }
 
@@ -143,3 +190,4 @@ body {
 /* .text {
   display: none;
 } */
+
